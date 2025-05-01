@@ -27,3 +27,10 @@ npm run dev
 ```sh
 npm run build
 ```
+
+# Consultorio Odontológico A&D 🦷
+
+![Tests](https://github.com/IvanCabreraDev/WEB_VUE/actions/workflows/ci.yml/badge.svg)
+
+Este proyecto es una aplicación web para la gestión de turnos odontológicos utilizando Vue 3, Vitest y GitHub Actions para CI.
+
