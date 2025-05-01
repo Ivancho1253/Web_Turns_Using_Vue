@@ -1,0 +1,223 @@
+/* ========================================
+   🧼 RESET & BASE
+======================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zilla Slab', serif;
+  }
+  
+  body {
+    background-color: #f4f9fb;
+    color: #333;
+    line-height: 1.6;
+    font-size: 23px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  /* ========================================
+     🧠 HEADER
+  ======================================== */
+  header {
+    background: url('/images/background_header.jpg');
+    color: #0d6efd;
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom: 4px solid #e0f7ff;
+    min-height: 100px;
+    position: relative;
+  }
+  
+  header h1 {
+    font-size: 3.2rem;
+    color: #0549af;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  header p {
+    font-size: 1.5rem;
+    color: #0549af;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* ========================================
+     📌 NAVEGACIÓN
+  ======================================== */
+  nav {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #0d6efd;
+    font-weight: bold;
+    padding: 8px 14px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #e6f2ff;
+  }
+  
+  /* ========================================
+     🧾 SECCIONES GENERALES
+  ======================================== */
+  .section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    padding: 40px 20px;
+  }
+  
+  .section h2 {
+    color: #0d6efd;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .section ul li {
+    margin-bottom: 10px;
+    list-style-type: square;
+    padding-left: 10px;
+    font-size: 1.3rem;
+  }
+  
+  /* ========================================
+     💡 SERVICIOS
+  ======================================== */
+  .servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+    justify-items: center;
+  }
+  
+  .servicio-card {
+    background-color: #e6f7ff;
+    border-radius: 12px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .servicio-card i {
+    font-size: 2.5rem;
+    color: #0d6efd;
+    margin-bottom: 15px;
+  }
+  
+  .servicio-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #0d6efd;
+  }
+  
+  .servicio-card p {
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .servicio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* ========================================
+     🧑‍⚕️ PROFESIONALES
+  ======================================== */
+  #profesionales .container {
+    text-align: center;
+  }
+  
+  #profesionales .servicio-card {
+    display: inline-block;
+    margin: 60px;
+    text-align: center;
+  }
+  
+  #profesionales .imagen {
+    width: 120%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  
+  /* ========================================
+     🖼️ IMÁGENES
+  ======================================== */
+  .imagen {
+    max-width: 240px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ========================================
+     🔘 BOTONES
+  ======================================== */
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #0d6efd;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background 0.3s, transform 0.3s ease;
+  }
+  
+  .boton:hover {
+    background-color: #d0f1ff;
+    transform: scale(1.05);
+  }
+  
+  .boton-grande {
+    margin: 10px;
+    font-size: 1.2rem;
+    padding: 13px 30px;
+    border-radius: 8px;
+  }
+  
+  /* ========================================
+     📩 FOOTER
+  ======================================== */
+  footer {
+    background-color: #e8f7ff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    color: #555;
+    border-top: 1px solid #bde7f7;
+  }
+  
